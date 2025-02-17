@@ -88,7 +88,15 @@ public class SeleniumTest {
       googlesubmitButton.click();
 
   }
+    @Test
+    public void googletext() {
+        driver.get("http://www.google.com");
 
+        WebElement googlesearchbox = driver.findElement(By.xpath("//textarea[@name='q']"));
+        googlesearchbox.sendKeys("Haritha");
+        WebElement googlesubmitButton = driver.findElement(By.name("btnK"));
+        googlesubmitButton.click();
+    }
     // Close the browser after tests are done
     @AfterClass
     public void tearDown() {
