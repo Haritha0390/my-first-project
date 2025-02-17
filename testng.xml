@@ -1,0 +1,7 @@
+<suite name="GoogleSearchSuite">
+    <test name="GoogleSearchTest">
+        <classes>
+            <class name="SeleniumTest"/>
+        </classes>
+    </test>
+</suite>
