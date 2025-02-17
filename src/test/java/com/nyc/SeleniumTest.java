@@ -93,7 +93,7 @@ public class SeleniumTest {
         driver.get("http://www.google.com");
 
         WebElement googlesearchbox = driver.findElement(By.xpath("//textarea[@name='q']"));
-        googlesearchbox.sendKeys("Haritha");
+        googlesearchbox.sendKeys("Hari");
         WebElement googlesubmitButton = driver.findElement(By.name("btnK"));
         googlesubmitButton.click();
     }
