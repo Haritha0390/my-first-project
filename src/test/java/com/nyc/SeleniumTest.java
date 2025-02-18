@@ -46,7 +46,7 @@ public class SeleniumTest {
     public void testConcatenateNames() {
         // Declare the names to be entered
         String name1 = "Haritha";
-        String name2 = "Morramreddy";
+        String name2 = "M";
 
         // Find the input fields for first and last names by their IDs
         WebElement name1Field = driver.findElement(By.id("name1"));
